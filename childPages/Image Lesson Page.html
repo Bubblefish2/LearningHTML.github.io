@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="Bubble Fish">
     <meta name="description" content="Learning HTML by building a simple website">
-    <meta name="keywords" content="boilerplate, starter code, HTML, learning">
+    <meta name="keywords" content="boilerplate, starter code, HTML, learning, images">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Content give value for name or http-equiv attribute, text entry in string or array string -->
 
@@ -23,16 +23,44 @@
 
     <title>Image Lesson Page</title>
 
+    <!-- Warning about JavaScript, Cybersecurity Topic -->
     <noscript>Running JavaScript is not necessary in the HTML Page ... FYI: your feature to execute scripts is turned off</noscript>
   
 </head>
   
 <body>
-    <header>This is the Image Lesson Page</header>
+    <header>Image Lesson</header>
     <nav>Navigation</nav>
-    <aside>This is the aside space.</aside>
-  <section><article>This is a section and article.</article></section>
-  <section><article><p>This is a paragraph tag inside a section-article</p></article></section>
+    <aside>Students are to play with the H-tags, p-tag, a-tag, etc, in the viewport with inline settings.</aside>
+  <section>
+    <header>Steps in building an Image</header>
+    <ul>
+        <li> Pick an Image (careful of the file extension in the URL)
+        <li> Record the URL, cite it, comment for the date accessed, and record the origonal dimensions (i.e aspect ratio)
+            <li> Note: openning in a new tab will eventually provide a http or https URL with a file extension
+        <li> Use blockquote and comment as appropirate
+        <li> Use img-tag with attributes src, alt, title, and style with width-height
+        <li> Compare the same image with two sizes of the viewport (25% & 100%)
+    </ul>
+  </section>
+  
+  <section>
+    <header>Example Image, 25% of the screen, sourced outside computer</header>
+    <blockquote cite="https://cdn.pixabay.com/photo/2019/03/13/21/16/cookies-4053771_960_720.jpg">
+      <!-- Date Accessed 20220708 -->
+      <!-- Width: 1920, Height: 1280-->
+    </blockquote>
+    <img src="https://cdn.pixabay.com/photo/2019/03/13/21/16/cookies-4053771_960_720.jpg" alt="Images/brown macaron.jpg" title="brown macarons" style="width:25%;height:auto;">
+  </section>
+
+  <section>
+    <header>Example Image, 100% of the screen, sourced inside computer</header>
+    <blockquote cite="https://cdn.pixabay.com/photo/2019/03/13/21/16/cookies-4053771_960_720.jpg">
+      <!-- Date Accessed 20220708 -->
+      <!-- Width: 1920, Height: 1280-->
+    </blockquote>
+    <img src="Images/brown macaron.jpg" alt="https://cdn.pixabay.com/photo/2019/03/13/21/16/cookies-4053771_960_720.jpg" title="brown macarons" style="width:100%;height:auto;">
+  </section>
 </body>
 
 <footer>
